@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+prediction_log.txt
+
+# Jupyter Notebooks and other temporary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large data files (if you don't want to track them or use Git LFS)
+# If your CSV catalog is very large, consider adding it here:
+# california_earthquake_catalog_M2+_1990_Present.csv
+
+# Saved models (if they are very large and you don't use Git LFS)
+# If your .joblib files are causing issues, you might add them here,
+# but generally for ML projects, you DO want to track models.
+# If you get errors about file size, look into Git LFS.
+# earthquake_prediction_model.joblib
+# model_feature_columns.joblib
