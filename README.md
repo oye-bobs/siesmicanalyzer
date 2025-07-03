@@ -48,8 +48,8 @@ This project develops and deploys a robust machine learning model to nowcast the
 Clone the repository:
 
 ```bash
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
+git clone https://github.com/oye-bobs/siesmicanalyzer
+cd siesmicanalyzer
 ```
 
 Create and activate a virtual environment (recommended):
@@ -92,7 +92,7 @@ Before running, you might need to adjust some configurations:
 
 ### 1. Train the Model
 ```bash
-python nowcasting_pipeline.py
+python nowcasting_pipeline9.py
 ```
 
 ### 2. Make Predictions
